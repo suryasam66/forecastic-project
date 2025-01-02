@@ -1,0 +1,166 @@
+.home-class{
+  max-width: fit-content;
+  padding: 0;
+  margin: 0;
+  
+}
+.heading-a{
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.heading-b{
+  display: flex;
+  position: absolute;
+  top: 0;
+ 
+  justify-content: center;
+}
+
+#title-text{
+  font-size: 3rem;
+  font-family: "DynaPuff", system-ui;
+  font-weight: 600;
+ 
+}
+.lottie-class{
+  height: 400px;
+  width: 1400px;
+}
+.animation-class{
+  margin-top: 20px;
+}
+
+#content-about-ab{
+  height: 45px;
+  width: 200px;
+  border-radius: 25px;
+  backdrop-filter: blur(10px);
+  border: none;
+  color: black;
+  border: 2px solid black;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-right: 10px;
+    box-shadow: 0 8px 16px rgba(67, 255, 189, 0.5);
+    
+}
+#content-about-ab:hover{
+   color: rgb(0, 255, 213);
+}
+.lottie-class-bt{
+  height: 40px;
+  width: 80px;
+}
+
+.button-class-ab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  
+  text-align: center;
+}
+.content-round-class {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px; /* Adds spacing between text and Lottie animation */
+}
+
+.main-content-div{
+  
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media screen and (max-width: 600px) {
+
+  
+
+ /*--------Home-----------*/
+
+ .heading-b{
+  display: flex;
+  position: absolute;
+  margin-top: 40px;
+ margin-left: 19px;
+  justify-content: center;
+}
+
+
+#title-text{
+  font-size: 2rem;
+  font-family: "DynaPuff", system-ui;
+  font-weight: 100;
+  
+ 
+}
+#sun-icon{
+  font-size: 2.5rem; 
+}
+.lottie-class{
+  height: 300px;
+  width: 400px;
+}
+
+.animation-class{
+  margin-top: 80px;
+  margin-right: 5px;
+  margin-left: -8px;
+}
+
+#content-about-ab{
+  height: 45px;
+  width: 200px;
+  border-radius: 25px;
+  backdrop-filter: blur(10px);
+  border: none;
+  color: black;
+  border: 2px solid black;
+  display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 10px;
+    font-size: 17px;
+    cursor: pointer;
+    margin-right: 10px;
+    box-shadow: 0 8px 16px rgba(67, 255, 189, 0.5);
+    
+}
+#content-about-ab:hover{
+   color: rgb(0, 255, 213);
+}
+.lottie-class-bt{
+  height: 40px;
+  width: 80px;
+}
+
+.button-class-ab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 190px;
+  
+  text-align: center;
+}
+.content-round-class {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px; /* Adds spacing between text and Lottie animation */
+}
+
+.main-content-div{
+  
+  align-items: center;
+  justify-content: center;
+}
+
+    
+}

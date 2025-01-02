@@ -1,0 +1,84 @@
+@media screen and (max-width: 600px) {
+
+    /*--------Nav Bar-----------*/
+   
+      
+      img {
+        height: 60px;
+        width: 60px;
+      }
+      .logo-class {
+        margin-left: 10px;
+        margin-top: 28px;
+      }
+      
+      /* lottie style*/
+      
+      /* button style */
+      .button-class {
+        display: flex;
+        margin-left: 99px;
+        justify-content: space-evenly;
+      }
+      #about-us {
+        height: 40px;
+        width: 107px;
+        border-radius: 25px;
+      
+        border: none;
+        color: white;
+        color: black;
+        border: 2px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 7px 7px;
+        font-size: 12px;
+        cursor: pointer;
+        justify-content: space-between;
+        transition: 1s;
+      }
+      
+      #about-home {
+        height: 40px;
+        width: 90px;
+        border-radius: 25px;
+      
+        border: none;
+        color: white;
+        color: black;
+        border: 2px solid black;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 7px 7px;
+        font-size: 12px;
+        cursor: pointer;
+        justify-content: space-between;
+        transition: 1s;
+      }
+      #about-home:hover,
+      #about-us:hover {
+        transform: scale(1.07);
+        color: rgb(0, 255, 213);
+      }
+      .about-us {
+        margin-top: 39px;
+        margin-right: 11px;
+      }
+      .round-class {
+        height: 26px;
+        width: 26px;
+        border-radius: 50%;
+      
+        border: 2px solid rgb(0, 0, 0);
+        display: flex;
+        justify-content: center;
+      }
+      
+      #arrow-id {
+        margin: 6px;
+      }
+
+   
+  }

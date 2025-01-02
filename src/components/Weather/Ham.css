@@ -1,0 +1,144 @@
+/* Hide the hamburger icon by default */
+.hamburger-container {
+    display: none;
+    position: relative;
+    z-index: 10;
+}
+
+/* Style the hamburger icon */
+.hamburger-icon {
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.bar {
+    width: 40px;
+    height: 6px;
+    background-color: rgb(15, 0, 77);
+    transition: all 0.3s;
+    border-radius: 5px;
+    margin-bottom: 2px;
+}
+
+.bar2 {
+  width: 40px;
+  height: 6px;
+  background-color: rgb(15, 0, 77);
+  transition: all 0.3s;
+  margin-bottom: 2px;
+  border-radius: 5px;
+}
+.bar3 {
+  width: 40px;
+  height: 6px;
+  background-color: rgb(15, 0, 77);
+  transition: all 0.3s;
+  border-radius: 5px;
+}
+
+/* Menu styles */
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #fff;
+    padding: 10px;
+    position: absolute;
+    top: 30px;
+    left: -10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    
+}
+.logo-close-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.close-button {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+  color: #ffffff;
+  margin-left: 10px;
+}
+
+
+/* Media query for screens smaller than 400px */
+@media (max-width: 600px) {
+    .hamburger-container {
+        display: block;
+        position: relative;
+        
+        margin-left: 6px;
+        margin-top: 25px;
+    }
+
+    .main-container,
+    .left-main-container {
+        display: none; /* Hide main content */
+    }
+
+.hamburger-icon{
+  height: 40px;
+  width: 40px;
+}
+
+/*-------------------------------------------*/
+
+ 
+  /*------------------- Left Container--------------------*/
+  .left-main-containerr {
+    height: 1366px;
+    width: 416px;
+    background-color: rgb(15, 0, 77);
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-top: 20px;
+   
+    padding-right: 20px;
+    color: white;
+    font-size: 33px;
+  }
+  .left-main-containerr #logo-left{
+    margin-top: 70px;
+    margin-left: 130px;
+    height: 140px;
+    width: 140px;
+  }
+  
+  
+  /* Left Sidebar icons */
+  .left-main-containerr .icon-selected{
+    margin: 20px 0;
+    color: white;
+    font-size: 44px;
+    display: flex;
+    margin-left: 55px;
+    margin-top: 63px;
+    backdrop-filter: blur(10px);
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  .left-main-containerr .icon-selected:hover{
+    padding: 19px;
+    border-radius: 10px ;
+    border: 4px solid white;
+  }
+  
+  .left-main-containerr #copyright{
+    margin-top: 350px;
+    margin-left: 14px;
+  }
+  .close-button{
+    margin-left: 370px;
+  }
+
+} 
+  
+  

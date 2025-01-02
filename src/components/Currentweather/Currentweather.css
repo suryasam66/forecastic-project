@@ -1,0 +1,67 @@
+.weather{
+    margin: 6px;
+    width: 308px;
+    height: 200px;
+    background: url("../../assets/hero.jpg");
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    
+}
+
+.location-title{
+    margin-top: 7px;
+    margin-left: 10px;
+}
+
+.current-location{
+    font-weight: 400;
+     font-size: 11px;
+     line-height: 1;
+     margin: 0;
+     color: rgb(141, 141, 141);
+}
+.city{
+     font-family: "DynaPuff", system-ui;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1;
+    margin: 0;
+    letter-spacing: 1px;
+    color: rgb(71, 71, 71);
+    text-shadow: 2px 2px 5px #7E60BF;
+    margin-top: 5px;
+}
+
+.weather-description{
+     font-weight: 600;
+     font-size: 38px;
+     line-height: 1;
+     margin: 0;
+     color: rgb(255, 255, 255);
+     text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.weather-icon{
+    height: 120px;
+    width: 170px;
+    margin-left: 90px;
+}
+
+#photo-temp{
+    font-family: "Oxanium", sans-serif;
+    font-weight: 700;
+    font-size: 49px;
+    color: white;
+    top: 0;
+    margin-top: 0;
+    margin-left: 14px;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 0.5);
+}
